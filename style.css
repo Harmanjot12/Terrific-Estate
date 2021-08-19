@@ -1,0 +1,66 @@
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  display: flex;
+ align-items: center;
+  }
+        
+
+#logo{
+    height:100px; 
+    width:100px; 
+    float:left;
+    margin-left: 3px; 
+    margin-top: 0px;
+    padding: 0px;
+}        
+  
+h1{
+    font-family: Trebuchet MS; 
+    font-size: 30px; 
+    color:white;
+    text-shadow:20px 20px 100px white;
+}
+
+strong{
+    color:#B6D0E2; 
+    font-family: forte;
+}
+
+h4{
+    font-family: "myFont", "Bitstream Vera Serif", serif;
+    font-size: 25px; 
+    color:white;
+}
+
+p.aboutus{
+    font-size:20px; 
+    font-family: arial;
+}
+
+
+h1{
+    font-family:chiller; 
+    text-align:center;
+    font-weight:bold;
+}
+
+input[type=text],[type=password] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 0%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 20px;
+    width:35%
+}
+
+div.new::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
+}
